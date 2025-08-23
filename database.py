@@ -3,7 +3,6 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 from . import config
-from .util import jwt
 
 ObjectId = String(24)
 
