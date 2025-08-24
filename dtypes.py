@@ -24,3 +24,13 @@ class TokenType(enum.IntEnum):
     AUTHORIZE=2
     REFRESH=3
     RECOVERY=4
+    DYNAMIC=5
+    XHAUTH=127
+
+@enum.unique
+class UserHistoryType(enum.IntEnum):
+    CREATE=0
+    RENAME=1
+    CHANGE_PWD=2
+    CHANGE_CLASS=3
+    CHANGE_PERM=4
